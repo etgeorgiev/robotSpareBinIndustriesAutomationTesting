@@ -1,41 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-24T20:15:54 EEST" name="Default Suite" finished-at="2023-10-24T20:16:09 EEST" duration-ms="14590">
+  <suite started-at="2023-10-27T20:19:18 EEST" name="All Test Suite" finished-at="2023-10-27T20:20:08 EEST" duration-ms="50406">
     <groups>
     </groups>
-    <test started-at="2023-10-24T20:15:54 EEST" name="robotSpareBinIndustriesAutomationTesting" finished-at="2023-10-24T20:16:09 EEST" duration-ms="14590">
-      <class name="Tests.TestLogInPage">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:15:55 EEST" name="beforeClass" finished-at="2023-10-24T20:15:59 EEST" duration-ms="4694" status="PASS">
+    <test started-at="2023-10-27T20:19:18 EEST" name="D:/robotSpareBinIndustriesAutomationTesting" finished-at="2023-10-27T20:20:08 EEST" duration-ms="50406">
+      <class name="tests.TestHomePage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:30 EEST" name="beforeClass" finished-at="2023-10-27T20:19:30 EEST" duration-ms="388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="loginWithValidCredentials()[pri:1, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:15:59 EEST" name="loginWithValidCredentials" finished-at="2023-10-24T20:16:04 EEST" duration-ms="4506" status="PASS">
+        <test-method signature="tryAddNewSalesEntries()[pri:1, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:30 EEST" name="tryAddNewSalesEntries" finished-at="2023-10-27T20:19:31 EEST" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryAddNewSalesEntries -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:31 EEST" name="clearCache" finished-at="2023-10-27T20:19:32 EEST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:32 EEST" name="beforeClass" finished-at="2023-10-27T20:19:32 EEST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="tryAddSecondNewSalesEntries()[pri:2, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:32 EEST" name="tryAddSecondNewSalesEntries" finished-at="2023-10-27T20:19:33 EEST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryAddSecondNewSalesEntries -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:33 EEST" name="clearCache" finished-at="2023-10-27T20:19:34 EEST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:34 EEST" name="beforeClass" finished-at="2023-10-27T20:19:34 EEST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="showPerformanceResult()[pri:3, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:34 EEST" name="showPerformanceResult" finished-at="2023-10-27T20:19:34 EEST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showPerformanceResult -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:34 EEST" name="clearCache" finished-at="2023-10-27T20:19:35 EEST" duration-ms="700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:35 EEST" name="beforeClass" finished-at="2023-10-27T20:19:35 EEST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="deleteAllSalesEntries()[pri:4, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:19:35 EEST" name="deleteAllSalesEntries" finished-at="2023-10-27T20:20:07 EEST" duration-ms="31813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllSalesEntries -->
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestHomePage@7ee955a8]" started-at="2023-10-27T20:20:07 EEST" name="clearCache" finished-at="2023-10-27T20:20:08 EEST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCache -->
+      </class> <!-- tests.TestHomePage -->
+      <class name="tests.TestLogInPage">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:18 EEST" name="beforeClass" finished-at="2023-10-27T20:19:23 EEST" duration-ms="5308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginWithValidCredentials()[pri:1, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:23 EEST" name="loginWithValidCredentials" finished-at="2023-10-27T20:19:26 EEST" duration-ms="3333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentials -->
-        <test-method is-config="true" signature="clearCache()[pri:0, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:16:04 EEST" name="clearCache" finished-at="2023-10-24T20:16:04 EEST" duration-ms="655" status="PASS">
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:26 EEST" name="clearCache" finished-at="2023-10-27T20:19:27 EEST" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCache -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:16:04 EEST" name="beforeClass" finished-at="2023-10-24T20:16:05 EEST" duration-ms="530" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:27 EEST" name="beforeClass" finished-at="2023-10-27T20:19:27 EEST" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="loginWithInvalidPassword()[pri:2, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:16:05 EEST" name="loginWithInvalidPassword" finished-at="2023-10-24T20:16:07 EEST" duration-ms="2315" status="PASS">
+        <test-method signature="loginWithInvalidPassword()[pri:2, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:27 EEST" name="loginWithInvalidPassword" finished-at="2023-10-27T20:19:29 EEST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidPassword -->
-        <test-method is-config="true" signature="clearCache()[pri:0, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:16:07 EEST" name="clearCache" finished-at="2023-10-24T20:16:09 EEST" duration-ms="1251" status="PASS">
+        <test-method is-config="true" signature="clearCache()[pri:0, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:19:29 EEST" name="clearCache" finished-at="2023-10-27T20:19:30 EEST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCache -->
-        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:Tests.TestLogInPage@769e7ee8]" started-at="2023-10-24T20:16:09 EEST" name="closeAllDriver" finished-at="2023-10-24T20:16:09 EEST" duration-ms="547" status="PASS">
+        <test-method is-config="true" signature="closeAllDriver()[pri:0, instance:tests.TestLogInPage@6193932a]" started-at="2023-10-27T20:20:08 EEST" name="closeAllDriver" finished-at="2023-10-27T20:20:08 EEST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeAllDriver -->
-      </class> <!-- Tests.TestLogInPage -->
-    </test> <!-- robotSpareBinIndustriesAutomationTesting -->
-  </suite> <!-- Default Suite -->
+      </class> <!-- tests.TestLogInPage -->
+    </test> <!-- D:/robotSpareBinIndustriesAutomationTesting -->
+  </suite> <!-- All Test Suite -->
 </testng-results>

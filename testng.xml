@@ -2,12 +2,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="Tests.ReporterManager"></listener>
+        <listener class-name="tests.ReporterManager"></listener>
     </listeners>
     <test verbose="2" preserve-order="true" name="D:/robotSpareBinIndustriesAutomationTesting">
        <classes>
-           <class name="Tests.TestLogInPage"/>
-           <class name="Tests.TestHomePage"/>
+           <class name="tests.TestLogInPage"/>
+           <class name="tests.TestHomePage"/>
        </classes>
     </test>
 </suite>
