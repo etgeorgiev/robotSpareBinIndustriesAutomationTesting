@@ -102,4 +102,13 @@ public class HomePage {
             return false;
         }
     }
+
+    public void addNewSalesEntries(String firstName, String lastName, String salesTarget, String salesResult){
+        insertFirstName(firstName);
+        insertLastName(lastName);
+        clickOnSalesTargetMenu();
+        clickOnTargetOptions(salesTarget);
+        insertSalesResult(salesResult);
+        clickSubmitButton();
+    }
 }

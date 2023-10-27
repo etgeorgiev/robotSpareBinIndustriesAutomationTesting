@@ -41,4 +41,10 @@ public class LoginPage {
     public Boolean isVisibleAlert(){
         return driver.findElement(warningAlert).isDisplayed();
     }
+
+    public void loginUser(String username, String password){
+        insertUsernameInTheField(username);
+        insertPasswordInTheField(password);
+        pressLoginButton();
+    }
 }
